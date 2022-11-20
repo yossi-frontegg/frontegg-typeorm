@@ -53,4 +53,6 @@ export interface UpdateEvent<Entity> {
      */
     updatedRelations: RelationMetadata[];
 
+    identifier: ObjectLiteral | undefined;
+
 }
